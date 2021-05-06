@@ -100,4 +100,5 @@ UNIFICACION DE CAMBIOS :
 
 - cherry-pick : Se copian los cambios del commit de un branch en otro 
 
+git clone : Me crea una carpeta en el lugar en donde yo este parado llamada de la misma manera que se llama el repositorio. Le puedo cambiar el nombre si quiero. Por defecto me trae solo la rama master local y todos los commits de las demas ramas. 
 
