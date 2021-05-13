@@ -136,3 +136,4 @@ REVERSION DE CAMBIOS :
 
     REFLOG : Es el log de actividades locales de un repositorio que tiene cada movimiento/accion que se fue haciendo en el repositorio
 
+    cherry pick : 
