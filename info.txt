@@ -124,6 +124,10 @@ REVERSION DE CAMBIOS :
 
     - reset : Vuelve para atras el HEAD y se lleva consigo el branch. Los commits que queden adelante se van a parder por lo general. Cambia el historial (por lo menos borrando commits) asi que solo se deberia hacer en local. 
 
+        - soft
+        - mixed
+        - hard
+
     - rebase : Permite una organizacion completamente manual del repositorio. Cambia el historial asi que solo se deberia hacer en local. 
 
     
