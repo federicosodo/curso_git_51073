@@ -126,8 +126,10 @@ REVERSION DE CAMBIOS :
 
         - soft : Resetea el head a un commit pasado sin perder los cambios intermedios. Todo lo que paso en el medio sigue quedando en el stage area. Podemos usarlo para unificar commits. 
 
-        - mixed
-        - hard
+        - mixed : Resetea el head a un commit pasado sin perder los cambios intermedios. Todo lo que paso en el medio sigue quedando en el working directory, si los queremos reincorporar tenemos que hacer git add y git commit. Podemos usarlo para unificar commits. 
+        
+        - hard : Resetea el head a un commit pasado perdiendo todos los cambios intermedios. 
+        
 
     - rebase : Permite una organizacion completamente manual del repositorio. Cambia el historial asi que solo se deberia hacer en local. 
 
