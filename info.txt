@@ -124,7 +124,8 @@ REVERSION DE CAMBIOS :
 
     - reset : Vuelve para atras el HEAD y se lleva consigo el branch. Los commits que queden adelante se van a parder por lo general. Cambia el historial (por lo menos borrando commits) asi que solo se deberia hacer en local. 
 
-        - soft
+        - soft : Resetea el head a un commit pasado sin perder los cambios intermedios. Todo lo que paso en el medio sigue quedando en el stage area. Podemos usarlo para unificar commits. 
+
         - mixed
         - hard
 
