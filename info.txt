@@ -102,28 +102,3 @@ UNIFICACION DE CAMBIOS :
 
 git clone : Me crea una carpeta en el lugar en donde yo este parado llamada de la misma manera que se llama el repositorio. Le puedo cambiar el nombre si quiero. Por defecto me trae solo la rama master local y todos los commits de las demas ramas. 
 
-
-git show <id_commit> : Te muestra lo que paso en un commit
-
-git diff [<id_commit>] : Compara y muestra diferencias entre lo actual (HEAD) y lo que vos le digas(id_commit)
-
-- No podes hacer checkout si no tenes un status limpio
-
-
-
-
-git stash : Lugar temporal donde podemos guardar cambios que no hayamos comiteado aun.
-
-
-
-
-
-REVERSION DE CAMBIOS : 
-
-    - revert : Cancela los cambios de un commit pero sin borrarlo, sino que agrega mas trabajo al historial. Se puede hacer con commits ya pusheados.
-
-    - reset : Vuelve para atras el HEAD y se lleva consigo el branch. Los commits que queden adelante se van a parder por lo general. Cambia el historial (por lo menos borrando commits) asi que solo se deberia hacer en local. 
-
-    - rebase : Permite una organizacion completamente manual del repositorio. Cambia el historial asi que solo se deberia hacer en local. 
-
-    
